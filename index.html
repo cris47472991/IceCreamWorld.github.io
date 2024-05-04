@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream World</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="icono.png">
+
+
+</head>
+<body>
+    
+    <header>
+        <div class="contenedor-logo">
+            <ul>
+                <li style="display: inline-block;"><img src="minimal.png" alt="Logo de tu empresa" style=" width: 270px;" style="margin-left: 100px;"></li>
+            <li style="display: inline-block; margin-left: 120px; font-size: 15px;  font-family: 'Pacifico', cursive;
+            font-weight: 400;
+            font-style: normal;"><img src="textlogo.png" alt="" width="300px"></li></ul>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Helados</a></li>
+                <li><a href="#">Creaciones</a></li>
+                <li id="loginLink"><a href="#">Login</a></li>
+                <li><form action="WebIceCreamWorld.html">
+                </form></li>
+                <img src="search.png" alt="searchICON" style="width: 50px; vertical-align: -20px;">
+                      <input type="search" style="height: 40px;" > 
+                       
+                    
+                   
+                
+            </ul>
+        </nav>
+    </header>
+    
+
+    <p> Promociones</h2>
+        <br>     
+    <img src="banner.avif" width="1700" height="900"></h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>Contactanos:</p><br>
+
+    </section></h1>
+    <img src="logofull.png" alt="logofull" width="200px">
+    <footer>
+        <p>&copy; 2024 - Ice Cream World</p>
+    </footer>
+
+    
+    <div style="
+    text-align: right;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+    width: auto;
+    right: 1%;
+    cursor: pointer;
+    line-height: 0;
+    display: block !important;
+">
+    <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img">
+        <img src="https://www.000webhost.com/static/default.000webhost.com/images/powered-by-000webhost.png" alt="www.000webhost.com">
+    </a>
+</div>
+
+<script>
+    document.getElementById("loginLink").addEventListener("click", function() {
+        var url = "login.html";
+
+        // Características de la ventana emergente (ancho, alto, etc.)
+        var opciones = "width=400, height=300, top=100, left=100";
+
+        // Abrir la ventana de inicio de sesión en una nueva ventana
+        window.open(url, "_blank", opciones);
+        alert("¡Has hecho clic en el enlace de login!");
+    });
+    function getCookie(t) {
+        for (var e = t + "=", n = decodeURIComponent(document.cookie).split(";"), o = 0; o < n.length; o++) {
+            for (var i = n[o]; " " == i.charAt(0);) i = i.substring(1);
+            if (0 == i.indexOf(e)) return i.substring(e.length, i.length)
+        }
+        return ""
+    }
+
+    getCookie("hostinger") && (document.cookie = "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;", location.reload());
+
+    var wordpressAdminBody = document.getElementsByClassName("wp-admin")[0],
+        notification = document.getElementsByClassName("notice notice-success is-dismissible"),
+        hostingerLogo = document.getElementsByClassName("hlogo"),
+        mainContent = document.getElementsByClassName("notice_content")[0];
+
+    if (null != wordpressAdminBody && notification.length > 0 && null != mainContent && new Date().toISOString().slice(0, 10) > '2023-10-29' && new Date().toISOString().slice(0, 10) < '2023-11-27') {
+        // Resto del código...
+    } else if (null != wordpressAdminBody && notification.length > 0 && null != mainContent) {
+        // Resto del código...
+    }
+</script>
+</body>
+</html>

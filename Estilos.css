@@ -1,0 +1,55 @@
+/*h1{
+    font-size: 3em; color: green ; text-align: center; background-color: aquamarine;
+}*/
+p{
+    font-size: 1.5em; color: rgb(255, 37, 164); text-align: center; background-color: rgb(17, 255, 243);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0; /* Color de fondo del encabezado */
+    display: flex; /* Permite que el logo y la navegaciÃ³n estÃ©n en lÃ­nea */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+h1{
+    font-size: 3em; color: green ; ;/* background-color: aquamarine;*/
+}
+
+/*.contenedor-logo {
+    width: 150px;  /* Ajusta el ancho del contenedor del logo */
+/*}*/
+
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline-block; /* Convierte los elementos de la lista en bloques en lÃ­nea */
+    margin-right: 20px; /* Espacio entre opciones */
+}
+
+nav a {
+    text-decoration: none; /* Elimina la decoraciÃ³n del enlace */
+    color: #258d73; /* Color del texto de las opciones */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 25px;
+}
+/* Estilos previos */
+
+nav a:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el mouse */
+    color: #000; /* Color del texto al pasar el mouse */
+}
+#a1{
+    color: Black; 
+    ;
+}
